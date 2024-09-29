@@ -36,3 +36,6 @@ class Cruise(models.Model):
     )
     def __str__(self) -> str:
         return self.name
+
+class InfoRequest(models.Model):
+    pass
